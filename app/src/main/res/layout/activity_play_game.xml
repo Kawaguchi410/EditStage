@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.drawstage.PlayGameActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <!--Button
+            android:id="@+id/leftButtonId"
+            android:text="左"
+            android:textSize="20dp"
+            android:onClick="leftButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="300dp"></Button>
+
+        <Button
+            android:id="@+id/jumpButtonId"
+            android:text="飛"
+            android:textSize="20dp"
+            android:onClick="jumpButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="300dp"></Button>
+
+        <Button
+            android:id="@+id/rightButtonId"
+            android:text="右"
+            android:textSize="20dp"
+            android:onClick="rightButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="470dp"
+            android:layout_marginTop="300dp"></Button-->
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
