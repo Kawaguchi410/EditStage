@@ -43,7 +43,6 @@ public class PlayGameActivity
     int blockSize;
 
     //設置モード 0:削除,1:普通のブロック,2:ダメージブロック
-
     int editMode = 2;
 
     //基準とするディスプレイサイズとの比率
